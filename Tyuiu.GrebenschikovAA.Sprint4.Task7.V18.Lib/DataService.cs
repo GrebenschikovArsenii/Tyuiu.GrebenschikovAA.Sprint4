@@ -12,7 +12,7 @@ namespace Tyuiu.GrebenschikovAA.Sprint4.Task7.V18.Lib
             {
                 for (int j = 0; j < m; j++)
                 {
-                    matrix[i, j] = int.Parse(value[5 * i + j].ToString());
+                    matrix[i, j] = int.Parse(value[3 * i + j].ToString());
                     if (matrix[i, j] % 2 == 0) c *= matrix[i, j];
                 }
             }
