@@ -7,7 +7,7 @@ namespace Tyuiu.GrebenschikovAA.Sprint4.Task7.V18.Lib
         public int Calculate(int n, int m, string value)
         {
             int[,] matrix = new int[n, m];
-            int c = 0;
+            int c = 1;
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
