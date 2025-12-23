@@ -6,12 +6,12 @@ namespace Tyuiu.GrebenschikovAA.Sprint4.Task2.V21.Lib
     {
         public int Calculate(int[] array)
         {
-            int sum = 0;
+            int p = 0;
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i] % 2 == 0) { sum += array[i]; }
+                if (array[i] % 2 == 0) { p *= array[i]; }
             }
-            return sum;
+            return p;
         }
     }
 }
